@@ -6,7 +6,7 @@ Nesta aula, é exposto um termo essencial ao decorrer do desenvolvimento web, no
 
 ## Url Absoluta
 Caminho completo de uma url, utilizada em uma determinada página (acionada no "href" da tag a). Geralmente um caminho 
-mais extenso para se utilizar no código. Ex.: <a href="./03-estrutura-da-pagina-web/index.html">Primeira Página</a>
+mais extenso para se utilizar no código. Ex.: <a href="/03-estrutura-da-pagina-web/index.html">Primeira Página</a>
 
 ## Url relativa
 Caminho relativo em relação ao arquivo ou página em que você se contra. É mais fácil de se utilizar comparada à utr 
