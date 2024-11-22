@@ -6,9 +6,9 @@ para separar determinadas partes do documento, tendo assim uma melhor visualiza�
 html a par de elementos simples de estilização como formatação de texto e etc. Além disso, estas tags são semelhantes 
 à tag img, no sentido de serem autocontidas e não possuirem fechamentos.
 
-## Tag <br>
+## Tag br
 A tag 'br' realiza uma quebra de linha após o seu uso, quebrando de linha imediatamente.
 
-## Tag <hr>
+## Tag hr
 A tag 'hr' posiciona uma linha horizontal no documento html (No CSS, imagine uma estilização de borda no top ou 
 bottom em uma "caixa").

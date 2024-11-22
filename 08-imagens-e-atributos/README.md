@@ -1,7 +1,7 @@
 # Aula 8 - Imagens e atributos
 No HTML também é possível inserir imagens ao decorrer de seus documentos desenvolvidos
 
-## Tag <img>
+## Tag img
 Para inserir uma imagem no documento, você deve inserir a tag "img" seguida do atributo "src", no qual você o 
 preencherá com o caminho em que determinada imagem se encontra, sendo uma pasta em seu computador, ou até mesmo uma 
 imagem disponível no navegado.
