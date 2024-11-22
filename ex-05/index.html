@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+</head>
+<body>
+    <form>
+        <h1>Formulário de Inscrição</h1>
+
+        <label for="name">Nome:</label><br>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="whats-app">WhatsApp:</label><br>
+        <input type="tel" id="whats-app" name="whats-app">
+        <br><br>
+        <label>Área de atuação</label><br>
+        <input type="radio" name="area" id="devlopment" value="devlopment">
+        <label for="devlopment">Desenvolvimento</label>
+        <input type="radio" name="area" id="qa" value="qa">
+        <label for="qa">Quality Assurance (QA)</label>
+        <input type="radio" name="area" id="data" value="data">
+        <label for="data">Analise de Dados</label>
+        <input type="radio" name="area" id="infra" value="infra">
+        <label for="infra">Infraestrutura</label>
+        <br><br>
+        <label for="obs">Observação</label><br>
+        <textarea name="obs" id="obs"></textarea>
+        <br><br>
+        <input type="checkbox" id="news" name="news">
+        <label for="news">Desejo receber novidades pelo email</label>
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
