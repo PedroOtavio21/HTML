@@ -9,7 +9,46 @@
     <h1>Tabelas no html</h1>
 
     <table>
-        
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pedro Otávio</td>
+                <td>22</td>
+                <td>Desenvolvedor Web</td>
+            </tr>
+            <tr>
+                <td>Ana Beatriz</td>
+                <td>20</td>
+                <td>Estética e Bronze</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Tabelas com células personalizadas:</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="2">Informações Pessoais</th>
+                <th>Contato</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nome:</td>
+                <td>João</td>
+                <td rowspan="2">Telefone: 123456</td>
+            </tr>
+            <tr>
+                <td>Idade:</td>
+                <td>32</td>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>

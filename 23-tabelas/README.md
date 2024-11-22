@@ -2,20 +2,28 @@
 Fator que me enche o saco sempre que retorno a estudar sobre ou até mesmo fazer mini-projetos e coisas do tipo
 
 ## Como funciona?
-Para iniciar uma tabela organizada, você deve utilizar a tag table, sendo a tag pai que terá todo o seu conteúdo 
-organizado por dentro. Após isso, segue para:
+Geralmente uma tabela é seguida de rótulos e células, sendo os rótulos os cabeçalhos ou nomes que representam 
+cada valor de uma célula. Na prática, as células são construiídas como:
 
-### Elementos thead e tbody
-Parecidos com as tags head e body no html, sendo a thead a tag que irá conter os títulos/rótulos de cada célula da 
-tabela. Já o tbody irá compar em seu interior as células propriamente ditas, como valor da idade ou nome de um 
-usuário, entre outras coisas. No entando, estas tags apenas comportarão os valores, sendo também tags "pai".
+### table
+Tag pai, que comportará todo o conteúdo da tabela, como uma grande "div" ou "container" por assim dizer
 
-### Tags th e td
-Agora sim, as tags que conterão os valores, sendo th uma célula dentro da tag thead e td outra célula que 
-ficará por dentro do tbody
+### thead e tbody
+Elementos filhos de table, que serão a cabeça da tabela (conterá os cabeçalhos da tabela) e o corpo (as células 
+propriamente ditas). Tags que vieram a partir do HTML5, melhorando a semântica para identificação do navegador e 
+desenvolvedor
 
-### Tag tr
-Chamada de table row, é uma tag onde comportará as linhas das células na table.
+### tr
+Seria a linha da tabela, onde comportarão os cabeçalhos e as células com seus respectivos valores
+
+### th e td
+th - Cabeçalho
+td - Célula
+
+## Extra
+No html, é possível também criar tabelas personalizáveis, contendo células que ocupam mais de uma linha, ou até mesmo 
+cabeçalhos que ocupam mais de uma coluna. No primeiro caso, utiliza-se o atributo "rowspan" nas tags "td´s" e 
+"colspan" nas tags th´s
 
 ## Em resumo
 Processo de criação:
